@@ -11,7 +11,7 @@ const projects = [
     image: "/images/project-1.png",
     description:
       "Michael is a Graphic Designer and Art Director who needed his portfolio design translated into a high-performance Framer site. I focused on high-fidelity development to ensure the final build matched the design perfectly, implementing a clean CMS structure for his projects and responsive layouts that maintain his aesthetic across all devices.",
-    url: "adekolu.design",
+    url: "https://adekolu.design/",
   },
   {
     title: "Querencia",
