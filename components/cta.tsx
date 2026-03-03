@@ -22,14 +22,14 @@ export function CTA() {
         </h2>
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <a
-            href="mailto:hello@eniolatijani.com"
+            href="mailto:eniola@theeniola.com"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
           >
             <Mail size={16} />
             Email me
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/eniola-tijani"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-border bg-background px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"

@@ -5,7 +5,7 @@ export function Footer() {
         <p>&copy; {new Date().getFullYear()} Eniola Tijani. All rights reserved.</p>
         <div className="flex items-center gap-6">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/eniola-tijani"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-foreground"
@@ -13,7 +13,7 @@ export function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/eni_w3b?s=21"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-foreground"
@@ -21,7 +21,7 @@ export function Footer() {
             Twitter
           </a>
           <a
-            href="mailto:hello@eniolatijani.com"
+            href="mailto:eniola@theeniola.com"
             className="transition-colors hover:text-foreground"
           >
             Email

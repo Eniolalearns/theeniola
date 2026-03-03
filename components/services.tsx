@@ -27,7 +27,7 @@ function ServiceItem({
   return (
     <div
       ref={ref}
-      className={`flex flex-col gap-2 border-t border-border py-8 md:flex-row md:items-start md:gap-16 transition-all duration-700 ease-out ${
+      className={`flex flex-col gap-2 border-t border-border py-8 md:flex-row md:items-start md:justify-between transition-all duration-700 ease-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
       }`}
       style={{ transitionDelay: `${index * 100}ms` }}
