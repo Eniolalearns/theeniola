@@ -104,7 +104,7 @@ export function FeaturedWork() {
   const { ref, isVisible } = useFadeIn()
 
   return (
-    <section id="projects" className="scroll-mt-20 py-24">
+    <section id="projects" className="scroll-mt-20 py-16">
       <div className="mx-auto max-w-6xl px-6">
         <h2
           ref={ref}

@@ -9,7 +9,7 @@ export function CTA() {
   return (
     <section
       id="contact"
-      className="scroll-mt-20 py-24 bg-secondary/50"
+      className="scroll-mt-20 py-16 bg-secondary/50"
       ref={ref}
     >
       <div

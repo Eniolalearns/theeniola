@@ -13,7 +13,7 @@ export function Hero() {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
     >
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-start gap-10 px-6 py-20">
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-start gap-10 px-6 py-16">
         <div className="flex-shrink-0">
           <div className="relative h-40 w-40 overflow-hidden rounded-full border-2 border-border md:h-52 md:w-52">
             <Image
