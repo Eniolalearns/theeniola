@@ -108,7 +108,7 @@ export function FeaturedWork() {
       <div className="mx-auto max-w-6xl px-6">
         <h2
           ref={ref}
-          className={`text-[1.5rem] md:text-[2rem] font-normal tracking-tight text-foreground mb-12 transition-all duration-700 ease-out ${
+          className={`text-[1.5rem] md:text-[2rem] font-normal tracking-tight text-foreground mb-8 transition-all duration-700 ease-out ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
