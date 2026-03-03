@@ -7,11 +7,11 @@ export function About() {
   const { ref: bodyRef, isVisible: bodyVisible } = useFadeIn(0.1)
 
   return (
-    <section id="about" className="scroll-mt-20 py-16">
+    <section id="about" className="scroll-mt-20 pt-8 pb-16">
       <div className="mx-auto max-w-6xl px-6">
         <h2
           ref={titleRef}
-          className={`text-[1.5rem] md:text-[2rem] font-normal tracking-tight text-foreground mb-10 transition-all duration-700 ease-out ${
+          className={`text-[1.5rem] md:text-[2rem] font-normal tracking-tight text-foreground mb-4 transition-all duration-700 ease-out ${
             titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >

@@ -46,7 +46,7 @@ export function Services() {
   const { ref, isVisible } = useFadeIn()
 
   return (
-    <section className="py-16">
+    <section className="pt-16 pb-8">
       <div className="mx-auto max-w-6xl px-6">
         <h2
           ref={ref}
