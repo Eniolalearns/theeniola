@@ -35,7 +35,7 @@ function ServiceItem({
       <h3 className="text-base font-medium text-foreground md:w-64 md:flex-shrink-0">
         {service.name}
       </h3>
-      <p className="text-sm text-muted-foreground leading-relaxed max-w-xl">
+      <p className="text-base text-muted-foreground leading-relaxed max-w-xl">
         {service.description}
       </p>
     </div>

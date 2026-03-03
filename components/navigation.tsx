@@ -43,21 +43,21 @@ export function Navigation() {
           <div className="flex flex-col gap-4">
             <Link
               href="#projects"
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="text-base text-muted-foreground transition-colors hover:text-foreground"
               onClick={() => setMobileOpen(false)}
             >
               Projects
             </Link>
             <Link
               href="#about"
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="text-base text-muted-foreground transition-colors hover:text-foreground"
               onClick={() => setMobileOpen(false)}
             >
               About me
             </Link>
             <Link
               href="#contact"
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="text-base text-muted-foreground transition-colors hover:text-foreground"
               onClick={() => setMobileOpen(false)}
             >
               Contact

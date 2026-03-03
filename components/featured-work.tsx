@@ -85,7 +85,7 @@ function ProjectCard({
         >
           {project.tag}
         </span>
-        <p className="text-sm text-muted-foreground leading-relaxed">
+        <p className="text-base text-muted-foreground leading-relaxed">
           {project.description}
         </p>
         <a
