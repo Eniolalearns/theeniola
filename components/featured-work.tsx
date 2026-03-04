@@ -29,6 +29,14 @@ const projects = [
       "Medicore is a HealthTech SaaS website built in Framer. I developed the full site based on an existing landing page design, expanding it with a blog, case studies, and demo forms. The site uses Framer CMS for easy content updates, is fully responsive, and optimized for fast loading across devices.",
     url: "https://medicoree.framer.website/",
   },
+  {
+    title: "Lupus",
+    tag: "Webflow",
+    image: "/images/project-5.png",
+    description:
+      "I partnered with NovaHQ to develop the "Living with Lupus" initiative for WellnessWorx, translating the project’s design into a high-performance Webflow site. My focus was on technical precision and structural integrity, ensuring a fluid, responsive experience that maintained the design’s aesthetic across all devices.",
+    url: "https://www.wellnessworx.com/initiatives/living-with-lupus",
+  },
   // {
   //   title: "Frema",
   //   tag: "Webflow",
