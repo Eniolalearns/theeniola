@@ -77,18 +77,18 @@ function ProjectCard({
         />
       </a>
      <div className="flex flex-col gap-2">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center justify-between">
           <h3 className="text-lg font-medium text-foreground">{project.title}</h3>
           <span
             className="font-normal"
             style={{
-              fontSize: "0.7rem",
+              fontSize: "0.6rem",
               border: "1px solid #29292B66",
               borderRadius: 5,
-              paddingLeft: 8,
-              paddingRight: 8,
-              paddingTop: 4,
-              paddingBottom: 4,
+              paddingLeft: 6,
+              paddingRight: 6,
+              paddingTop: 2,
+              paddingBottom: 2,
               color: "#29292BE6",
               backgroundColor: "transparent",
             }}
