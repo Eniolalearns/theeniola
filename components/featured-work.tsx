@@ -96,9 +96,6 @@ function ProjectCard({
             {project.tag}
           </span>
         </div>
-        <p className="text-base text-muted-foreground leading-relaxed">
-          {project.description}
-        </p>
         <a
           href={project.url}
           className="mt-1 inline-flex items-center gap-1 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
@@ -106,6 +103,10 @@ function ProjectCard({
           View site
           <ArrowUpRight size={14} />
         </a>
+        <p className="text-base text-muted-foreground leading-relaxed">
+          {project.description}
+        </p>
+        
       </div>
     </article>
   )
