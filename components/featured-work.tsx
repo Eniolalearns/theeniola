@@ -17,33 +17,33 @@ const projects = [
   //   title: "Querencia",
   //   tag: "Webflow",
   //   image: "/images/project-2.png",
+  //   url: "https://querencia0.webflow.io/",
   //   description:
   //     "Querencia needed a site that could support their expansion into the Nigerian property market and growing listings. I built a scalable Webflow website with dynamic filters and swipeable galleries, making it easier for buyers to find homes and for the team to manage content independently.",
-  //   url: "https://querencia0.webflow.io/",
   // },
   {
     title: "Lupus",
     tag: "Webflow",
     image: "/images/project-5.png",
+    url: "https://www.wellnessworx.com/initiatives/living-with-lupus",
     description:
       "I partnered with NovaHQ to develop the \u201cLiving with Lupus\u201d initiative for WellnessWorx, translating the project’s design into a high-performance Webflow site. My focus was on technical precision and structural integrity, ensuring a fluid, responsive experience that maintained the design’s aesthetic across all devices.",
-    url: "https://www.wellnessworx.com/initiatives/living-with-lupus",
   },
   {
      title: "Frema",
     tag: "Webflow",
     image: "/images/project-4.png",
-     description:
-       "Frema needed a stronger web presence to support their investment fundraising. I developed their site in Webflow using the Client-First system, implemented English\u2013French translation with Weglot, added WhatsApp for quick support, and included light GSAP animations to create a smoother user experience.",
     url: "https://www.frema.io/",
+    description:
+       "Frema needed a stronger web presence to support their investment fundraising. I developed their site in Webflow using the Client-First system, implemented English\u2013French translation with Weglot, added WhatsApp for quick support, and included light GSAP animations to create a smoother user experience.",
   },
   {
     title: "Medicore",
     tag: "Framer",
     image: "/images/project-3.png",
+    url: "https://medicoree.framer.website/",
     description:
       "Medicore is a HealthTech SaaS website built in Framer. I developed the full site based on an existing landing page design, expanding it with a blog, case studies, and demo forms. The site uses Framer CMS for easy content updates, is fully responsive, and optimized for fast loading across devices.",
-    url: "https://medicoree.framer.website/",
   },
    
 ]
