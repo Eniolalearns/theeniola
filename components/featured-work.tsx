@@ -22,14 +22,6 @@ const projects = [
   //   url: "https://querencia0.webflow.io/",
   // },
   {
-    title: "Medicore",
-    tag: "Framer",
-    image: "/images/project-3.png",
-    description:
-      "Medicore is a HealthTech SaaS website built in Framer. I developed the full site based on an existing landing page design, expanding it with a blog, case studies, and demo forms. The site uses Framer CMS for easy content updates, is fully responsive, and optimized for fast loading across devices.",
-    url: "https://medicoree.framer.website/",
-  },
-  {
     title: "Lupus",
     tag: "Webflow",
     image: "/images/project-5.png",
@@ -37,14 +29,23 @@ const projects = [
       "I partnered with NovaHQ to develop the \u201cLiving with Lupus\u201d initiative for WellnessWorx, translating the project’s design into a high-performance Webflow site. My focus was on technical precision and structural integrity, ensuring a fluid, responsive experience that maintained the design’s aesthetic across all devices.",
     url: "https://www.wellnessworx.com/initiatives/living-with-lupus",
   },
-  // {
-  //   title: "Frema",
-  //   tag: "Webflow",
-  //   image: "/images/project-4.png",
-  //   description:
-  //     "Frema needed a stronger web presence to support their investment fundraising. I developed their site in Webflow using the Client-First system, implemented English\u2013French translation with Weglot, added WhatsApp for quick support, and included light GSAP animations to create a smoother user experience.",
-  //   url: "https://www.frema.io/",
-  // },
+  {
+     title: "Frema",
+    tag: "Webflow",
+    image: "/images/project-4.png",
+     description:
+       "Frema needed a stronger web presence to support their investment fundraising. I developed their site in Webflow using the Client-First system, implemented English\u2013French translation with Weglot, added WhatsApp for quick support, and included light GSAP animations to create a smoother user experience.",
+    url: "https://www.frema.io/",
+  },
+  {
+    title: "Medicore",
+    tag: "Framer",
+    image: "/images/project-3.png",
+    description:
+      "Medicore is a HealthTech SaaS website built in Framer. I developed the full site based on an existing landing page design, expanding it with a blog, case studies, and demo forms. The site uses Framer CMS for easy content updates, is fully responsive, and optimized for fast loading across devices.",
+    url: "https://medicoree.framer.website/",
+  },
+   
 ]
 
 function ProjectCard({
@@ -75,24 +76,26 @@ function ProjectCard({
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </a>
-      <div className="flex flex-col gap-2">
-        <h3 className="text-lg font-medium text-foreground">{project.title}</h3>
-        <span
-          className="font-normal self-start"
-          style={{
-            fontSize: "0.8rem",
-            border: "1px solid #29292B66",
-            borderRadius: 5,
-            paddingLeft: 8,
-            paddingRight: 8,
-            paddingTop: 4,
-            paddingBottom: 4,
-            color: "#29292BE6",
-            backgroundColor: "transparent",
-          }}
-        >
-          {project.tag}
-        </span>
+     <div className="flex flex-col gap-2">
+        <div className="flex items-center gap-3">
+          <h3 className="text-lg font-medium text-foreground">{project.title}</h3>
+          <span
+            className="font-normal"
+            style={{
+              fontSize: "0.7rem",
+              border: "1px solid #29292B66",
+              borderRadius: 5,
+              paddingLeft: 8,
+              paddingRight: 8,
+              paddingTop: 4,
+              paddingBottom: 4,
+              color: "#29292BE6",
+              backgroundColor: "transparent",
+            }}
+          >
+            {project.tag}
+          </span>
+        </div>
         <p className="text-base text-muted-foreground leading-relaxed">
           {project.description}
         </p>
